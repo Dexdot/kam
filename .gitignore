@@ -1,0 +1,16 @@
+src/css/tmp
+src/works/
+dist/
+node_modules/
+.DS_Store
+Thumbs.db
+.idea
+*.sublime*
+*.log
+*.psd
+*.ai
+*.pdf
+*.mp4
+**/*.mp4
+yarn.lock
+npm-debug.log*
