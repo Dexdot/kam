@@ -45,28 +45,6 @@
     "webpack": "4.6.0",
     "webpack-stream": "4.0.3"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "browser": true,
-      "jquery": true
-    },
-    "extends": [
-      "airbnb-base",
-      "prettier"
-    ],
-    "parser": "babel-eslint",
-    "parserOptions": {
-      "allowImportExportEverywhere": true
-    },
-    "rules": {
-      "linebreak-style": [
-        "error",
-        "windows"
-      ],
-      "import/no-cycle": false
-    }
-  },
   "dependencies": {
     "animejs": "^3.0.1",
     "inobounce": "^0.1.6",
