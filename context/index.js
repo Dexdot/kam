@@ -1,7 +1,7 @@
 module.exports = {
   cases: [
     {
-      text: 'nickadams',
+      text: 'nick adams',
       img: '/img/cases/nickadams.jpg',
       link: 'https://nickadams.now.sh'
     },
