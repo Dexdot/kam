@@ -1,6 +1,11 @@
 module.exports = {
   cases: [
     {
+      text: 'nickadams',
+      img: '/img/cases/nickadams.jpg',
+      link: 'https://nickadams.now.sh'
+    },
+    {
       text: 'infini',
       img: '/img/cases/infini.jpg',
       link: 'https://infini-kam.now.sh'
