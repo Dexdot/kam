@@ -6,9 +6,24 @@ module.exports = {
       link: 'https://nickadams.now.sh'
     },
     {
+      text: 'ubear',
+      img: '/img/cases/ubear.jpg',
+      link: 'https://ubear-kam.now.sh'
+    },
+    {
       text: 'infini',
       img: '/img/cases/infini.jpg',
       link: 'https://infini-kam.now.sh'
+    },
+    {
+      text: 'grandioso',
+      img: '/img/cases/grandioso.jpg',
+      link: 'https://grandioso-kam.now.sh'
+    },
+    {
+      text: 'myhome',
+      img: '/img/cases/myhome.jpg',
+      link: 'https://myhome-kam.now.sh'
     },
     {
       text: 'estetic',
