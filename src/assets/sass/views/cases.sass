@@ -1,0 +1,62 @@
+.main-container
+  padding: 80px $unit
+  background: #0E0E0E
+
+.cases
+  margin-bottom: 18vh
+
+  @media (max-width: 640px)
+    margin-bottom: 160px
+  
+.case-link
+  +druk
+  +link(#fff)
+  +yo('font-size', (375px: 30px, 1920px: 120px))
+  line-height: 1
+  text-transform: uppercase
+
+.case-link__img
+  display: inline
+  margin-left: 0.2em
+  width: 1.2em
+  height: auto
+
+.inst-link
+  width: 24px
+  height: 24px
+
+  display: flex
+  align-items: center
+  justify-content: center
+
+  @media (max-width: 640px)
+    width: 16px
+    height: 16px
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: contain
+
+.about-text
+  height: auto
+
+  @media (min-width: 641px)
+    min-width: 448px
+    width: 40vw
+    
+  @media (max-width: 640px)
+    width: 100%
+    margin-bottom: 16px
+
+
+.main-row
+  width: 100%
+  display: flex
+
+  @media (max-width: 640px)
+    flex-direction: column
+
+  @media (min-width: 641px)
+    justify-content: space-between
+    align-items: flex-end

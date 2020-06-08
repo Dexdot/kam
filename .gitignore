@@ -1,16 +1,24 @@
-src/css/tmp
-src/works/
-dist/
-node_modules/
-.DS_Store
-Thumbs.db
+# Default
+.gulp
 .idea
-*.sublime*
+.vscode
+
+# Node
+node_modules
+
+# Dist & tests
+test
+dist
+
+# Logs:
 *.log
-*.psd
-*.ai
-*.pdf
-*.mp4
-**/*.mp4
-yarn.lock
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Special
+Thumbs.db
+Desktop.ini
+.DS_Store*
+ehthumbs.db
+Icon?

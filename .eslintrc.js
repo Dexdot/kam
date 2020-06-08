@@ -1,24 +1,11 @@
 module.exports = {
   root: true,
-
   env: {
-    node: true
+    browser: true
   },
-
-  rules: {
-    'prettier/prettier': [
-      'warn',
-      {
-        singleQuote: true,
-        semi: false
-      }
-    ],
-    'linebreak-style': 'off'
+  globals: {
+    $: true
   },
-
-  parserOptions: {
-    parser: 'babel-eslint'
-  },
-
-  extends: ['airbnb-base', 'prettier']
-}
+  extends: ['airbnb-base', 'prettier'],
+  parser: 'babel-eslint'
+};

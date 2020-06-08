@@ -1,0 +1,107 @@
+extends ../templates/template.pug
+
+block content
+  -
+    var cases = [
+      {
+        text: 'nick adams',
+        img: '/assets/img/cases/nickadams.jpg',
+        link: 'https://nickadams.now.sh'
+      },
+      {
+        text: 'ubear',
+        img: '/assets/img/cases/ubear.jpg',
+        link: 'https://ubear-kam.now.sh'
+      },
+      {
+        text: 'infini',
+        img: '/assets/img/cases/infini.jpg',
+        link: 'https://infini-kam.now.sh'
+      },
+      {
+        text: 'grandioso',
+        img: '/assets/img/cases/grandioso.jpg',
+        link: 'https://grandioso-kam.now.sh'
+      },
+      {
+        text: 'myhome',
+        img: '/assets/img/cases/myhome.jpg',
+        link: 'https://myhome-kam.now.sh'
+      },
+      {
+        text: 'estetic',
+        img: '/assets/img/cases/estetic.jpg',
+        link: 'https://estetic-kam.now.sh'
+      },
+      {
+        text: 'institutsky 16',
+        img: '/assets/img/cases/institutsky.jpg',
+        link: 'https://institutsky-kam.now.sh'
+      },
+      {
+        text: 'adastra',
+        img: '/assets/img/cases/adastra.jpg',
+        link: 'https://adastra-kam.now.sh'
+      },
+      {
+        text: 'che group',
+        img: '/assets/img/cases/che.jpg',
+        link: 'https://che-kam.now.sh'
+      },
+      {
+        text: 'manu',
+        img: '/assets/img/cases/manu.jpg',
+        link: 'https://manu-kam.now.sh'
+      },
+      {
+        text: 'its.birthday',
+        img: '/assets/img/cases/its.jpg',
+        link: 'https://20-its.now.sh/birthday.html'
+      },
+      {
+        text: 'larne',
+        img: '/assets/img/cases/larne.jpg',
+        link: 'https://larne-kam.now.sh'
+      },
+      {
+        text: 'academia',
+        img: '/assets/img/cases/academia.jpg',
+        link: 'https://academia-kam.now.sh'
+      },
+      {
+        text: 'neurohive',
+        img: '/assets/img/cases/neurohive.jpg',
+        link: 'https://neurohive-kam.now.sh'
+      },
+      {
+        text: 'beauteka',
+        img: '/assets/img/cases/beauteka.jpg',
+        link: 'https://beauteka-kam.now.sh'
+      }
+    ];
+    
+
+  .main-container
+    ul.cases
+      each item in cases
+        li
+          if item.link
+            a.case-link(href=item.link target="_blank")
+              span= item.text
+              img.case-link__img(src=item.img alt=item.text)
+
+          else
+            .case-link
+              span= item.text
+              img.case-link__img(src=item.img alt=item.text)
+
+
+    .main-row
+      img.about-text(src="/assets/img/svg/about.svg" alt="About")
+
+      a.inst-link(href="https://www.instagram.com/hvxzcb/" target="_blank")
+        img(src="/assets/img/svg/instagram.svg" alt="Instagram")
+
+
+
+

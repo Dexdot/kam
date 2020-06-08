@@ -1,0 +1,12 @@
+doctype html
+html(lang='ru')
+  include ../templates/mixins.pug
+  include ../templates/head.pug
+  
+  body
+    include ../templates/blocks.pug
+    
+    .scroll-container#js-scroll
+      main
+        block content
+
